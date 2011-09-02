@@ -1,0 +1,58 @@
+/* 
+    Document   : home
+    Created on : 25/06/2011, 03:38:41 PM
+    Author     : Andres
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#general-container {
+    color: red;
+    position: relative;
+    margin: 0px auto;
+    width: 900px;
+    margin-top: 20px;
+}
+
+#advertising, #services {
+    border: 1px solid #681D7F;
+    height: 250px;
+    padding: 25px 10px 10px 25px;
+    margin-top: 50px;
+}
+
+.rounded-corners-10
+{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+
+
+.color-1 {
+
+}
+
+.color-2 {
+
+}
+
+.color-3 {
+
+}
+
+.color-4 {
+
+}
+
