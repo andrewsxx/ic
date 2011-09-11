@@ -24,6 +24,7 @@ root {
 }
 
 #advertising, #services {
+    background-color: white;
     border: 1px solid #681D7F;
     height: 250px;
     padding: 25px 10px 10px 25px;
@@ -38,6 +39,14 @@ root {
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
 }
+
+horizontal-links {
+   list-style-type: none;
+}
+
+ul.horizontal-links li{
+   display: inline;
+} 
 
 
 .color-1 {
