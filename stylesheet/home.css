@@ -15,53 +15,17 @@ root {
     display: block;
 }
 
-#general-container {
-    color: red;
-    position: relative;
-    margin: 0px auto;
-    width: 900px;
-    margin-top: 20px;
-}
-
 #advertising, #services {
     background-color: white;
-    border: 1px solid #681D7F;
-    height: 250px;
+    border: 1px solid darkGray;
     padding: 25px 10px 10px 25px;
     margin-top: 50px;
 }
 
-.rounded-corners-10
-{
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-}
-
-horizontal-links {
-   list-style-type: none;
-}
-
-ul.horizontal-links li{
-   display: inline;
+#advertising{
+    height: 300px;
 } 
 
-
-.color-1 {
-
+#services{
+    height: 500px;
 }
-
-.color-2 {
-
-}
-
-.color-3 {
-
-}
-
-.color-4 {
-
-}
-

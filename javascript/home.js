@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    alert("hei");
-    $('.relieve-container').imageFrame('sharp');
+//    alert("hei");
+//    $('.relieve-container').imageFrame('sharp');
 });
