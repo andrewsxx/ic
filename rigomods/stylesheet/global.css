@@ -14,10 +14,6 @@
 *********** GLOBALS ***************
 ***********************************/
 
-body {
-    background-color: bisque;
-}
-
 .rounded-corners-10
 {
     border-radius: 10px;
@@ -49,7 +45,7 @@ ul.horizontal-links li{
 }
 
 .color-4 {
-
+	background-color: #D8E5D1;
 }
 
 .shadow {

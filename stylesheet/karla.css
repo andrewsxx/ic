@@ -1,0 +1,33 @@
+.shadow {
+	-moz-box-shadow: 5px 5px 5px #5E6F5E;
+	-webkit-box-shadow: 5px 5px 5px #5E6F5E;
+/*	box-shadow: 5px 5px 5px #000;*/
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5E6F5E')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5E6F5E');
+}
+
+#main-container {
+    color: #264426;
+}
+
+.link-1, .button-1{
+    color: #2B802B;
+}
+
+a.link-1:visited{
+    color: #0E240E;
+}
+
+#top-container {
+    background: transparent url(../images/karla-top-menu-shadow.png) repeat-x;
+}
+
+#advertising, #services {
+    border: 1px solid #065e08;
+}
+
+body {
+    background: transparent url(../images/fondo-karla.png) repeat-x;
+}

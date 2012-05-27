@@ -1,0 +1,11 @@
+#top-container {
+    background: transparent url(../images/light_green.jpg) repeat-x;
+}
+
+body {
+    background: url("http://www.gamerdna.com/uimage/full/green-abstract-background-jpg.jpg") repeat-x;
+}
+
+#advertising, #services {
+    background-color: #007FFF;
+}

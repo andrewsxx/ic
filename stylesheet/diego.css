@@ -1,0 +1,25 @@
+#top-container {
+    background: transparent url(../images/diego-top-menu-shadow.png) repeat-x;
+}
+
+#main-container {
+    color: #534940;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+.shadow {
+	-moz-box-shadow: 3px 3px 3px #A9A9A9;
+	-webkit-box-shadow: 3px 3px 3px #A9A9A9;
+/*	box-shadow: 5px 5px 5px #000;*/
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#A9A9A9')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#A9A9A9');
+}
+
+.button-1, .link-1 {
+    color : #145c03;
+}

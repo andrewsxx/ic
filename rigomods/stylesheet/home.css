@@ -1,0 +1,31 @@
+/* 
+    Document   : home
+    Created on : 25/06/2011, 03:38:41 PM
+    Author     : Andres
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#advertising, #services {
+    background-color: white;
+    border: 1px solid darkGray;
+    padding: 25px 10px 10px 25px;
+    margin-top: 50px;
+}
+
+#advertising{
+    height: 300px;
+} 
+
+#services{
+    height: 500px;
+}
