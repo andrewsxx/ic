@@ -17,4 +17,20 @@ $(document).ready(function() {
         $(".fondo-numero").html(fondo);
         $(this).attr("fondo", fondo);
     });
+    
+    $(".test-top a").click(function(){
+        var top = $(this).attr("top");
+        top++;
+        if(top == 5) top=1;
+        switch (top){
+            case 1: 
+                $("#top-container").css("background", "transparent url(../images/andres-top-menu.png) repeat-x");
+                break;
+            default: 
+                $("#top-container").css("background", "transparent url(../images/andres" + top + "-top-menu.png) repeat-x");
+                break;
+        }
+        $(".top-numero").html(top);
+        $(this).attr("top", top);
+    });
 });
