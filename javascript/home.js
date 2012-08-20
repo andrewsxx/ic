@@ -8,10 +8,10 @@ $(document).ready(function() {
         if(fondo == 6) fondo=1;
         switch (fondo){
             case 1: 
-                $("body").css("background", "transparent url(../images/fondo-andres.png) repeat-x");
+                $("body").css("background", "transparent url(images/fondo-andres.png) repeat-x");
                 break;
             default: 
-                $("body").css("background", "transparent url(../images/fondo-andres" + fondo + ".png) repeat-x");
+                $("body").css("background", "transparent url(images/fondo-andres" + fondo + ".png) repeat-x");
                 break;
         }
         $(".fondo-numero").html(fondo);
@@ -24,10 +24,10 @@ $(document).ready(function() {
         if(top == 5) top=1;
         switch (top){
             case 1: 
-                $("#top-container").css("background", "transparent url(../images/andres-top-menu.png) repeat-x");
+                $("#top-container").css("background", "transparent url(images/andres-top-menu.png) repeat-x");
                 break;
             default: 
-                $("#top-container").css("background", "transparent url(../images/andres" + top + "-top-menu.png) repeat-x");
+                $("#top-container").css("background", "transparent url(images/andres" + top + "-top-menu.png) repeat-x");
                 break;
         }
         $(".top-numero").html(top);
