@@ -84,7 +84,7 @@ ul.horizontal-links li{
 }
 
 #top-container #logo-1 {
-    width: 350px;
+    width: 300px;
 }
 
 #top-separator {
@@ -93,7 +93,7 @@ ul.horizontal-links li{
     left: 0;
     width: 100%;
     height: 80px;
-    background: url(http://subtlepatterns.com/patterns/brushed_alu.png);
+    background: url(../images/degradado.png);
     z-index: 999;
 }
 
